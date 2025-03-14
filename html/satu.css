@@ -74,7 +74,7 @@
     /* bag bawah */
 /* Add to satu.css */
 .elegant-footer {
-    background: linear-gradient(135deg, #111111, #34495e);
+   background: var(--bg-color4);
     color: #ecf0f1;
     padding: 4rem 0 2rem;
     margin-top: 4rem;
@@ -260,7 +260,7 @@ background-color: #87A2FF;
 transition: all ease-in 0.3s;
 }
 .navbar {
-    background: var(--bg-color1);
+    background: var(--bg-color4);
     box-shadow: 0 2px 10px var(--shadow, rgba(0, 0, 0, 0.1));
     position: sticky;
     top: 0;
@@ -401,19 +401,19 @@ transition: all ease-in 0.3s;
 /* Dark Mode Styles */
 :root {
     --bg-color: #c7c3e13a;
+    --bg-color3:#fbfbfc;
+    --bg-color4:#0E46A3;
     --text-color: #333333;
     --card-bg: #fbfbfc;
-    --bg-color3:fbfbfc;
     --shadow: rgba(0, 0, 0, 0.1);
-    --bg-color1:#87A2FF;
 }
 
 .dark-theme {
-    --bg-color1:#091057;
     --bg-color: #000000;
+    --bg-color3:#31363F;
+    --bg-color4:#091057;
     --text-color: #ffffff;
     --card-bg: #2d2d2d;
-    --bg-color3:#31363F;
     --shadow: rgba(5, 5, 5, 0.1);
 }
 
