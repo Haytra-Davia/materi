@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=DM+Serif+Text:ital@1&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+IE+Guides&family=Sriracha&display=swap');
-* {
+* body{
     padding: 0;
     margin: 0;
 }   
 .container {
     display: flex;
     min-height: 100vh;
+    box-sizing: border-box;
+    box-sizing: content-box;
 }
 .sidebar {
-    background-color: black;
-    width: 260px;
+    background: var(--bg-color2);
+    width: 40%;
     padding: 24px;
     display: flex;
-
     box-sizing: border-box;
     transition: width 0.3s;
     overflow: hidden;
@@ -52,12 +53,7 @@
     width: 60px;
     justify-content: center;
 }
-.main-konten {
-    background-color: rgb(216, 212, 207);
-    flex-direction: column;
-    flex-grow: 1;
-    transition: margin-left 0.3s;
-}
+
 .sidebar.shrink + .main-konten {
     margin-left: 0px;
 }
@@ -154,4 +150,117 @@
 .list a img:active {
   transform: scale(0.4) translateY(2px);
   transition: transform 0.1s ease-in-out;
+}
+/* isi dalem konten */
+.main-konten {
+   background: var(--bg-color1);
+    transition: margin-left 0.3s;
+    overflow: hidden;
+    z-index: 1000;
+}
+.image img{
+    width: 110%;
+    height: 100%;
+    background: var(--bg-color);
+    border-radius: 20px;
+}
+.image{
+    display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Membagi dalam 3 kolom */
+        justify-items: center;
+        ;
+}
+figcaption{
+    text-align: center;
+    font-family: "Sriracha", cursive;
+}
+/* warna */
+:root{
+    --bg-color:#16404D;
+    --bg-color1:#79D7BE;
+    --bg-color:#044A42;
+    --text-color:#000000;
+}
+.dark-theme{
+    --bg-color:#48A6A7;
+    --bg-color1:#243642;
+    --bg-color2:#040D12;
+    --text-color:#FDFAF6;
+}
+/* tombol */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    right: 20px;
+    top: 60px;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background: #e0e0e0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.switch {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: all 0.3s ease;
+}
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background: #cccccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dark-theme .toggle-switch {
+    background: #3498db;
+}
+
+.dark-theme .switch {
+    left: 32px;
+}
+
+.dark-theme .fa-moon {
+    color: #3498db;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+@media (max-width : 768px){
+    .image{
+        display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Membagi dalam 3 kolom */
+            justify-items: center;
+            ;
+    }
+}
+@media (max-width : 468px){
+    .image{
+        display: grid;
+            grid-template-columns: 1fr; /* Membagi dalam 3 kolom */
+            justify-items: center;
+            ;
+    }
 }
