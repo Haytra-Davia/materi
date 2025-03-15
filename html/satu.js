@@ -16,3 +16,7 @@ const darkModeToggle = document.querySelector('.toggle-switch');
             localStorage.setItem('theme', 'light');
         }
     });
+
+    function toggleMenu() {
+        document.querySelector(".nav-links").classList.toggle("active");
+    }

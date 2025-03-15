@@ -1,10 +1,9 @@
 
-   
    *{
         padding: 0;
         margin: 0;
     }
-  
+ 
     .isi{
     display: grid;
     grid-template-columns: 70% 25%;
@@ -12,8 +11,61 @@
     width:100%;
     gap: 2rem;
     margin-top: 1rem;
-    
+    font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
     }
+    /* judul */
+    .judul{
+       color: var(--bg-color2);
+       font-family: "Gravitas One", serif;
+       font-weight: 400;
+       font-size: 50px;
+       font-style: normal;
+     text-transform: capitalize;
+    }
+    h3{
+        font-size: 30px;
+        padding: 30px 0px;
+    }
+    i{
+        color: #3D3BF3;
+    }
+    .sumber{
+        color: #379777;
+        font-size: 25px;
+        padding: 0px 0px 10px 5px;
+    }
+    h1{
+        text-transform: uppercase;
+        font-family: "Gravitas One", serif;
+        font-size: 35px;
+    }
+/* link */
+.link{
+    color: #f13a11;
+}
+/* img */
+figure{
+    margin: 20px;
+}
+figure img{
+    border-radius: 10px;
+    position: relative;
+    width: 40%;
+    left  : 30%;
+   
+}
+figure figcaption{
+    color: var(--text-color);
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+    /* isi */
+    
     .grid1{
         background-color: rgb(251, 251, 252);
         border-radius: 1rem;
@@ -69,6 +121,8 @@
         border-radius: 1rem;
     margin: 1% 0px;
     text-align: center;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-size: 22px;
     }
 
     /* bag bawah */
@@ -124,7 +178,7 @@
 }
 
 .social-icon:hover {
-    color: #3498db;
+    color: var(--bg-color2);
     transform: translateY(-2px);
 }
 
@@ -160,7 +214,7 @@
 }
 
 .footer-link:hover {
-    color: #3498db;
+    color: var(--bg-color2);
     padding-left: 0.5rem;
 }
 
@@ -244,6 +298,20 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .navbar{
+        position: sticky;
+    }
+    .hamburger {
+        display: block;
+    }
+    
+    .nav-links li a{
+        color: var(--text-color)    ;
+    }
+    .nav-link .active {
+        display: flex;
+        background: var(--bg-color);
+    }
 }
 
 /* mak */
@@ -266,6 +334,9 @@ transition: all ease-in 0.3s;
     top: 0;
     z-index: 1000;
     transition: all 0.3s ease;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav-container {
@@ -277,16 +348,14 @@ transition: all ease-in 0.3s;
     align-items: center;
 }
 
-.logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--text-color, #333333);
+.logo img{
+    width: 3rem;
+    border-radius: 2rem;
     transition: all 0.3s ease;
 }
 
 .logo span {
-    color: #3498db;
+   color: var(--bg-color2);
 }
 
 .nav-links {
@@ -369,16 +438,18 @@ transition: all ease-in 0.3s;
         right: -100%;
         top: 70px;
         flex-direction: column;
-        background: var(--nav-bg, #ffffff);
+     background: var(--bg-color3);
         width: 100%;
         text-align: center;
         padding: 2rem 0;
+
         transition: 0.3s;
         box-shadow: 0 5px 10px var(--shadow, rgba(0, 0, 0, 0.1));
     }
 
     .nav-links.active {
         right: 0;
+            
     }
 
     .hamburger {
@@ -396,11 +467,27 @@ transition: all ease-in 0.3s;
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    .grid2{
+        display: none;
+    }
+    .isi    {
+        display: grid;
+    grid-template-columns: 100% 0%;
+    grid-template-rows: 100%;
+    }
+    .milih{
+        display: grid;
+        grid-template-columns: 100% 0%;
+        grid-template-rows: 100%;
+    }
+    
 }
 /* malam */
 /* Dark Mode Styles */
 :root {
     --bg-color: #c7c3e13a;
+    --bg-color1:#87A2FF;
+    --bg-color2:#0C1844;
     --bg-color3:#fbfbfc;
     --bg-color4:#0E46A3;
     --text-color: #333333;
@@ -410,6 +497,8 @@ transition: all ease-in 0.3s;
 
 .dark-theme {
     --bg-color: #000000;
+    --bg-color1:#091057;
+    --bg-color2:#83B4FF;
     --bg-color3:#31363F;
     --bg-color4:#091057;
     --text-color: #ffffff;
