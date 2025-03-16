@@ -44,7 +44,7 @@ i {
 
 h1 {
     text-transform: uppercase;
-    font-family: "Gravitas One", serif;
+    font-family: "Poppins", sans-serif;     
     font-size: 35px;
 }
 
@@ -331,6 +331,13 @@ figure figcaption {
     .nav-link .active {
         display: flex;
         background: var(--bg-color);
+    }
+    h1{
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+    .list {
+        font-size: 18px;
     }
 }
 
