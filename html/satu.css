@@ -58,14 +58,21 @@ figure {
     margin: 20px;
 }
 
-figure img {
+.pengenalan figure img {
     border-radius: 10px;
     position: relative;
-    width: 40%;
-    left: 30%;
+    width: 60%;
+    left: 20%;
 
 }
-
+.artikel figure img{
+    width: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+/* .artikel figure img{
+    text-align: center;
+} */
 figure figcaption {
     color: var(--text-color);
     text-align: center;
@@ -114,7 +121,7 @@ figure figcaption {
 
 .milih {
     display: grid;
-    grid-template-columns: 70% 25%;
+    grid-template-columns: 70% 35%;
     grid-template-rows: 100%;
     width: 100%;
     gap: 2rem;
@@ -140,6 +147,9 @@ figure figcaption {
     text-align: center;
     font-family: "Akaya Kanadaka", system-ui;
     font-size: 22px;
+}
+.daleman a{
+    text-decoration: none;
 }
 
 /* bag bawah */
