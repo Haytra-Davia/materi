@@ -1,0 +1,112 @@
+
+body{
+    background-image: url(https://pondokit.com/wp-content/uploads/2024/06/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.semua{
+    margin: 0px 70px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    max-width: 1200px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.429);
+    padding: 0px 30px;
+    background: white;
+    z-index: 1000;
+    font-family: "Roboto", Sans-serif;
+}
+.navbar a img{
+    width: 100%;
+}
+.nav-link{
+    display: flex;
+    margin: 30px 0px;
+
+}
+.nav-link li ,
+.nav-link li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.84);
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar .icon{
+    margin: 20px;
+   
+}
+.navbar .icon a img {
+    width: 30px;
+    margin: 0px 2px;
+    background-color: #72BEFF;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.navbar .icon a img:hover{
+   transform: scale(1.2);
+}
+.isi-kiri{
+    padding: 0px;
+    margin: 0px;
+}
+.biru{
+    color: #72BEFF;
+    text-transform: capitalize;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+.isi-kiri p{
+    font-family: "Roboto", Sans-serif;
+    font-weight: 550;
+}
+.isi-kiri .btn{
+    display: flex;
+}
+.btn button{
+    height: 50px;
+    width: 150px;
+    margin: 0 10px 0 0;
+    background-image: linear-gradient(219deg, #6EC1E4 34%, #8A73EEE8 100%);
+    box-shadow: 0px 0px 30px -5px rgba(0, 125.00000000000001, 255, 0.);
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn .kotak button{
+    border-radius: 1rem;
+    /* border: none; */
+    
+}
+.btn .kotak button:hover{
+    transform: scale(1.2); 
+}
+
+.btn .bulet button{
+    border-radius: 90px;
+    width: 50px;
+}
+.btn .bulet button:hover{
+    transform: scale(1.2); 
+}
+.container .content .img-header-kanan {
+    width: 90%;
+    max-width: 100%;
+}
+.container .content .img-header-kiri{
+    width: 70%;
+    max-width: 100%;
+}
+.container .content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
