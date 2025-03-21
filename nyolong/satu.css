@@ -110,3 +110,44 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
 }
+/* visi misi */
+.visi-misi{
+    margin: 3rem 0;
+}
+.gambar{
+  display: flex;
+  justify-content: center;
+   
+}
+.misi{
+    transition: transform 0.3s ease-in-out;
+
+}
+.misi:hover{
+    transform: scale(1.1); 
+
+}
+
+.visi{
+    transition: transform 0.3s ease-in-out;
+
+}
+.visi:hover{
+    transform: scale(1.1); 
+
+}
+/* program */
+.progaram .tulisan{
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    text-transform: uppercase;
+    margin: 5rem 0;
+}
+.study {
+    display: flex;
+    justify-content: center;
+}
+.study img{
+    max-width: 100%;
+    width: 80%;
+}
