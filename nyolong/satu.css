@@ -1,14 +1,15 @@
-
-body{
+body {
     background-image: url(https://pondokit.com/wp-content/uploads/2024/06/bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.semua{
+
+.semua {
     margin: 0px 70px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,16 +23,19 @@ body{
     z-index: 1000;
     font-family: "Roboto", Sans-serif;
 }
-.navbar a img{
+
+.navbar a img {
     width: 100%;
 }
-.nav-link{
+
+.nav-link {
     display: flex;
     margin: 30px 0px;
 
 }
-.nav-link li ,
-.nav-link li a{
+
+.nav-link li,
+.nav-link li a {
     text-decoration: none;
     margin: 0px 10px;
     list-style: none;
@@ -40,10 +44,12 @@ body{
     font-weight: 600;
     text-decoration: none;
 }
-.navbar .icon{
+
+.navbar .icon {
     margin: 20px;
-   
+
 }
+
 .navbar .icon a img {
     width: 30px;
     margin: 0px 2px;
@@ -51,27 +57,33 @@ body{
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
 }
-.navbar .icon a img:hover{
-   transform: scale(1.2);
+
+.navbar .icon a img:hover {
+    transform: scale(1.2);
 }
-.isi-kiri{
+
+.isi-kiri {
     padding: 0px;
     margin: 0px;
 }
-.biru{
+
+.biru {
     color: #72BEFF;
     text-transform: capitalize;
     font-family: "Roboto", Sans-serif;
     font-weight: 600;
 }
-.isi-kiri p{
+
+.isi-kiri p {
     font-family: "Roboto", Sans-serif;
     font-weight: 550;
 }
-.isi-kiri .btn{
+
+.isi-kiri .btn {
     display: flex;
 }
-.btn button{
+
+.btn button {
     height: 50px;
     width: 150px;
     margin: 0 10px 0 0;
@@ -82,103 +94,121 @@ body{
     transition: transform 0.3s ease-in-out;
 }
 
-.btn .kotak button{
+.btn .kotak button {
     border-radius: 1rem;
     /* border: none; */
-    
-}
-.btn .kotak button:hover{
-    transform: scale(1.2); 
+
 }
 
-.btn .bulet button{
+.btn .kotak button:hover {
+    transform: scale(1.2);
+}
+
+.btn .bulet button {
     border-radius: 90px;
     width: 50px;
 }
-.btn .bulet button:hover{
-    transform: scale(1.2); 
+
+.btn .bulet button:hover {
+    transform: scale(1.2);
 }
+
 .container .content .img-header-kanan {
     width: 90%;
     max-width: 100%;
 }
-.container .content .img-header-kiri{
+
+.container .content .img-header-kiri {
     width: 70%;
     max-width: 100%;
 }
-.container .content{
+
+.container .content {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
 /* visi misi */
-.visi-misi{
+.visi-misi {
     margin: 3rem 0;
 }
-.gambar{
-  display: flex;
-  justify-content: center;
-   
+
+.gambar {
+    display: flex;
+    justify-content: center;
+
 }
-.misi{
+
+.misi {
     transition: transform 0.3s ease-in-out;
 
 }
-.misi:hover{
-    transform: scale(1.1); 
+
+.misi:hover {
+    transform: scale(1.1);
 
 }
 
-.visi{
+.visi {
     transition: transform 0.3s ease-in-out;
 
 }
-.visi:hover{
-    transform: scale(1.1); 
+
+.visi:hover {
+    transform: scale(1.1);
 
 }
+
 /* program */
-.progaram .tulisan{
+.progaram .tulisan {
     text-align: center;
     font-family: "Roboto", Sans-serif;
     text-transform: uppercase;
     margin: 5rem 0;
 }
+
 .study {
     display: flex;
     justify-content: center;
 }
-.study img{
+
+.study img {
     max-width: 100%;
     width: 80%;
 }
+
 /* konsep */
-.konsep .gambar{
+.konsep .gambar {
     align-items: center;
-   display: flex;
-   gap: 150px;
-   margin: 70px 90px;
+    display: flex;
+    gap: 150px;
+    margin: 70px 90px;
 }
-.gambar img{
+
+.gambar img {
     width: 440px;
 }
 
 /* konsep */
-.alur-santri .gambar img{
+.alur-santri .gambar img {
     width: 90%;
     max-width: 100%;
 }
-h1{
+
+h1 {
     text-align: center;
     font-family: "Roboto", Sans-serif;
     text-transform: capitalize;
     margin: 5rem 0;
 }
-.bingkai{
+
+.bingkai {
     display: flex;
-   justify-content: center;
-   
+    justify-content: center;
+
 }
-.bingkai .isi{
+
+.bingkai .isi {
     overflow: hidden;
     width: 14%;
     max-width: 100%;
@@ -187,24 +217,159 @@ h1{
     margin: 0% 10px;
     border-radius: 10px;
 }
-.bingkai .isi img{
+
+.bingkai .isi img {
     width: 100%;
     margin-top: 10%;
 }
-.bingkai .isi p{
+
+.bingkai .isi p {
     font-size: 15px;
     text-align: center;
     color: #72BEFF;
     font-family: "Roboto", Sans-serif;
     margin-bottom: 20%;
 }
-.bingkai .isi span{
+
+.bingkai .isi span {
     color: black;
     font-size: 10px;
     font-family: "Roboto", Sans-serif;
 }
-.bingkai .isi:hover{
+
+.bingkai .isi:hover {
     transition: all 0.5s ease-in-out;
-   
-box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.525);
+    box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.525);
+}
+.bingkai .isi p:hover{
+    color: #108dfa;
+    transition: all 0.5s ease-in-out;
+}
+
+/* jumlah */
+.jumlah {
+    margin: 5rem 0;
+    display: grid;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "Roboto", Sans-serif;
+    color: #72BEFF;
+    background: linear-gradient(#fffff9, #fafbe2);
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    
+}
+.jumlah:hover{
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.233);
+}
+.jumlah .tulisan span {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.jumlah .santri span {
+    padding: 0 20px;
+}
+
+.jumlah .tulisan span {
+    padding: 0 50px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.tulisan .Sejak {
+    left: 30px;
+}
+
+.tulisan .Alumni {
+    right: 30px;
+}
+
+.jumlah .tulisan .santri1 {
+    left: 60px;
+}
+
+.jumlah .tulisan .Pengurus {
+    left: 25px;
+}
+
+.jumlah .tulisan .mitra {
+    right: 25px;
+}
+
+.jumlah .santri,
+.jumlah .tulisan {
+    position: relative;
+    top: 30px;
+}
+/* vidio */
+.vidio{
+    margin: 10% 0;
+}
+.isi-vidio{
+ justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+.vidio iframe{
+    border-radius: 15px;
+    max-width: 100%;
+    width: 50%;
+    justify-content: center;
+   height: 200px;
+   transition: transform 0.4s ease-in-out; 
+}
+.vidio iframe:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.233);
+    transform: scale(1.1);
+}
+/* 4 pilar */
+.isi-vilar{
+    display: flex;
+}
+
+.pilar .isi-vilar a img{
+    width: 100%;
+    transition: transform 0.4s ease-in-out; 
+} 
+.pilar .isi-vilar a img:hover{
+    
+    transform: scale(1.1);
+}
+/* mitra */
+.mitra{
+    margin: 10% 0;
+    background: radial-gradient(white, rgb(231, 238, 178));
+    border-radius: 30px;
+}
+.gmitra{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    justify-content: center;
+}
+.gmitra img{
+    width: 30%;
+    max-width: 100%;
+}
+.gmitra span{
+    font-size: 35px;
+    font-family: "Roboto", Sans-serif;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.isi-mitra{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+    overflow: hidden;
+    
+}
+.isi-mitra img{
+    width: 100%;
 }
