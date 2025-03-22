@@ -151,3 +151,60 @@ body{
     max-width: 100%;
     width: 80%;
 }
+/* konsep */
+.konsep .gambar{
+    align-items: center;
+   display: flex;
+   gap: 150px;
+   margin: 70px 90px;
+}
+.gambar img{
+    width: 440px;
+}
+
+/* konsep */
+.alur-santri .gambar img{
+    width: 90%;
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    text-transform: capitalize;
+    margin: 5rem 0;
+}
+.bingkai{
+    display: flex;
+   justify-content: center;
+   
+}
+.bingkai .isi{
+    overflow: hidden;
+    width: 14%;
+    max-width: 100%;
+    border: 1px solid rgb(4, 164, 244);
+    background: white;
+    margin: 0% 10px;
+    border-radius: 10px;
+}
+.bingkai .isi img{
+    width: 100%;
+    margin-top: 10%;
+}
+.bingkai .isi p{
+    font-size: 15px;
+    text-align: center;
+    color: #72BEFF;
+    font-family: "Roboto", Sans-serif;
+    margin-bottom: 20%;
+}
+.bingkai .isi span{
+    color: black;
+    font-size: 10px;
+    font-family: "Roboto", Sans-serif;
+}
+.bingkai .isi:hover{
+    transition: all 0.5s ease-in-out;
+   
+box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.525);
+}
